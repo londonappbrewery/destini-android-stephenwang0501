@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="24sp"
+        android:textSize="@dimen/storyText"
         android:textColor="#ffffffff"/>
 
     <Button
@@ -29,14 +29,14 @@
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans1"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="61dp"
-        android:background="#e74c3c"
-        android:textColor="#ecf0f1"
+        android:layout_marginBottom="@dimen/buttonMarginBottom"
+        android:background="@color/topButton"
+        android:textColor="@color/buttonText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="15sp"/>
+        android:textSize="@dimen/buttonText"/>
 
     <Button
         android:id="@+id/buttonBottom"
@@ -48,10 +48,23 @@
         android:layout_alignStart="@+id/buttonTop"
         android:layout_alignRight="@+id/buttonTop"
         android:layout_alignEnd="@+id/buttonTop"
-        android:background="#3498db"
-        android:textColor="#ecf0f1"
-        android:textSize="15sp"/>
+        android:background="@color/buttonButton"
+        android:textColor="@color/buttonText"
+        android:textSize="@dimen/buttonText"/>
 
-
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart_story"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/buttonMarginBottom"
+        android:background="@color/topButton"
+        android:textColor="@color/buttonText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/buttonText"/>
 
 </RelativeLayout>
